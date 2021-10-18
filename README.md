@@ -1,6 +1,6 @@
 # YogaBurn-Balance Your Life
 
-This project was bootstrapped with [Visit Our Website and Enroll to Your Desired Course]().
+[visit the website and start taking yoga services from us](https://yogaburn-healthcare.netlify.app/)
 
 
 ## A small introduction of YogaBurn
