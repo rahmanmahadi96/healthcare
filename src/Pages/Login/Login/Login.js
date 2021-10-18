@@ -3,10 +3,10 @@ import { Link, useHistory, useLocation } from 'react-router-dom';
 import useAuth from '../../../hooks/useAuth';
 
 const Login = () => {
-    const {handleGoogleSign} = useAuth();
+    const {handleGoogleSign, handleEmail, handleRegister, handlePass, togglelogIn, isLogIn,error} = useAuth();
     const location = useLocation();
     const history = useHistory();
-    const redirect_uri = location.state?.from || '/shop';
+    const redirect_uri = location.state?.from || '/serviceDetails';
 
     const googleSgnIn = () => {
         handleGoogleSign()
@@ -19,15 +19,25 @@ const Login = () => {
         <div className="p-5">
              
                 <h2>Login</h2>
-                <form className="p-3">
-                    <input type="email" name="" id="" placeholder="Your Email" />
+                <form onSubmit={handleRegister} className="p-3">
+                    <input onBlur={handleEmail} type="email" name="" id="" placeholder="Your Email" />
                     <br />
-                    <input className="my-2" type="password" name="" id="" placeholder="Enter password"/>
+                    <input onBlur={handlePass} className="my-2" type="password" name="" id="" placeholder="Enter password"/>
                     <br />
-                    <input className="btn btn-primary" type="submit" value="Submit" />
+                    <div className="row mb-3">
+                    <div className="col-sm-10 offset-sm-2">
+                         <div className="form-check">
+                           <input onChange={togglelogIn} className="form-check-input" type="checkbox" id="gridCheck1"/>
+                           <label className="form-check-label" htmlFor="gridCheck1">
+                             Already Registred?
+                           </label>
+                        </div>
+                       </div>
+                     </div>
+                     <button type="submit" className="btn btn-primary">{ isLogIn ? 'Log In' : 'Register'}</button>
                 </form>
                 <p>new to YogaBurn? <Link to="/register">Create Account</Link></p>
-                
+                <div className="row my-3 text-danger">{error}</div>
                 <button className="btn btn-warning" onClick={googleSgnIn}>Google Sign In</button>
             
         </div>

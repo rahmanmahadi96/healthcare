@@ -30,13 +30,13 @@ function App() {
             <Route path="/about">
               <About></About>
             </Route>
-            <Route path="/faq">
+            <PrivateRoute path="/faq">
               <Faq></Faq>
-            </Route>
+            </PrivateRoute>
             <Route path="/contact">
               <Contact></Contact>
             </Route>
-            <PrivateRoute path="/ServiceDetail">
+            <PrivateRoute path="/ServiceDetail:serviceDetailsId">
               <ServiceDetail></ServiceDetail>
             </PrivateRoute>
             <Route path="/signin">
