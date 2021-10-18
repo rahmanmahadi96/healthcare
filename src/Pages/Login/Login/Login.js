@@ -37,7 +37,6 @@ const Login = () => {
                      <button type="submit" className="btn btn-primary">{ isLogIn ? 'Log In' : 'Register'}</button>
                 </form>
                 <p>new to YogaBurn? <Link to="/register">Create Account</Link></p>
-                <div className="row my-3 text-danger">{error}</div>
                 <button className="btn btn-warning" onClick={googleSgnIn}>Google Sign In</button>
             
         </div>
