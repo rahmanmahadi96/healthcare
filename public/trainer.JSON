@@ -1,0 +1,32 @@
+[
+    {
+        "id": "t1",
+        "name": "Mishkat Mihda",
+        "ratings": 4.8,
+        "reviews": 71,
+        "img": "./images/tr1.jpeg"
+    },
+   
+    {
+        "id": "t2",
+        "name": "Mahadi R.",
+        "ratings": 4.5,
+        "reviews": 18,
+        "img": "./images/tr2.jpeg"
+    },
+    {
+        "id": "t3",
+        "name": "Tawhid Hasan",
+        "ratings": 4.2,
+        "reviews": 27,
+        "img": "./images/tr3.jpeg"
+    },
+    {
+        "id": "t4",
+        "name": "Mahdiya Rahman",
+        "ratings": 4.6,
+        "reviews": 42,
+        "img": "./images/tr4.jpeg"
+    }
+    
+]

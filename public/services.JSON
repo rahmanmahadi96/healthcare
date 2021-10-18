@@ -1,0 +1,14 @@
+[
+
+{"id":"1", "title":"YogiApproved", "price":"200", "img":"./images/service1.jpeg", "instructor":"Mahdiya Rahman", "speciality":"Best for Partners", "star":"4.9", "starcount":"324"}
+,
+{"id":"2", "title":"Glo", "price":"185", "img":"./images/service2.jpeg", "instructor":"Mahadi Rahman", "speciality":"Best for Stress", "star":"4.7", "starcount":"211"}
+,
+{"id":"3", "title":"Yoga Intro", "price":"225", "img":"./images/service3.jpeg", "instructor":"Nehal Rahman", "speciality":"Best for Teachers", "star":"4.8", "starcount":"179"}
+,
+{"id":"4", "title":"Yoga Quickie", "price":"200", "img":"./images/service4.jpeg", "instructor":"Minhaj Mahib", "speciality":"Best for Beginners", "star":"4.6", "starcount":"97"}
+,
+{"id":"5", "title":"Alo Moves", "price":"285", "img":"./images/service5.jpeg", "instructor":"Inaaya Rahman", "speciality":"Best for Prenatal", "star":"4.6", "starcount":"188"}
+,
+{"id":"6", "title":"Daily Burn", "price":"115", "img":"./images/service6.jpeg", "instructor":"tahmina ritu", "speciality":"Best for Budget", "star":"4.9", "starcount":"294"}
+]
